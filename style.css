@@ -1,0 +1,414 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Montserrat", sans-serif !important;
+    background-color: #F2F2F2;
+}
+
+/* header{
+    
+}  */
+/* Header o menu */
+.menu {
+    background: #ABB07D;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+}
+
+.menu__title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.lista__header {
+
+    text-align: center;
+    display: flex;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    transition-duration: 2s;
+    text-decoration: overline;
+}
+
+/* Presentacion breve */
+.title {
+    padding: 0px 100px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(#ABB07D 0%, #b4b794 33.33%, #bcbea6 66.67%, #DDDADC 100%);
+}
+
+.title__bio {
+    font-size: 80px;
+    font-weight: 600;
+    justify-content: center;
+
+}
+
+.title__subsection {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 0 20px 0;
+}
+
+/* Links de redes */
+.title__network__linkedin:hover {
+    text-decoration: underline;
+}
+
+.title__network__git:hover {
+    text-decoration: underline;
+}
+
+ul a {
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+ul li {
+    display: inline;
+}
+
+
+ul li a img {
+    padding-left: 7px;
+    height: 15px;
+    width: 15px;
+    margin-right: 50px;
+}
+
+/* Foto */
+.title__profile {
+    height: 600px;
+    width: auto;
+    display: grid;
+    right: 0;
+}
+
+/* Sobre mi */
+.about {
+    padding: 120px 100px;
+    background-color: #DDDADC;
+
+}
+
+.about h2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.about p {
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Hobbies */
+.hobbies {
+    margin-top: 50px;
+
+}
+
+.hobbies h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.hobbies__box {
+    height: 174px;
+    width: 176px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.hobbies__box ul li img {
+    display: flex;
+    height: 70px;
+    width: auto;
+    margin-bottom: 15px;
+    vertical-align: top;
+}
+
+.hobbies__line {
+    justify-content: space-between;
+    display: flex;
+}
+
+/* Habilidades */
+.skills {
+    padding: 80px 100px 80px;
+}
+
+.skills h3 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 70px;
+}
+
+.skills__box {
+    height: 174px;
+    width: 176px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.skills__box ul li img {
+    display: flex;
+    height: 70px;
+    width: auto;
+    margin-bottom: 15px;
+
+}
+
+.skills__line {
+    justify-content: space-between;
+    display: flex;
+}
+
+/* Formacion Profesional
+.academic{
+    padding: 70px 100px;
+}
+
+.academic h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.academic__courses__box{
+    height: 174px;
+    width: 176px;
+    background-color: rgb(255, 255, 255); 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.academic__courses__box ul li img{ 
+    display: flex;
+    height: 70px;
+    width: auto;
+    margin-bottom: 15px;
+    
+}
+
+.academic__courses{
+    justify-content: space-around;
+    display: flex;
+} */
+
+.experience {
+    padding: 70px 100px;
+
+}
+
+.experience__box {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.experience__box2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.experience__container {
+    margin-top: 20px;
+
+}
+
+.experience h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.experience__box2 h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.experience__box h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.experience__info {
+    text-align: center;
+    margin: 0 50px 0 50px;
+}
+
+.experience__img {
+    border-radius: 30px;
+    height: 300px;
+    transition: 500ms;
+}
+
+.experience__img:hover {
+    transform: scale(1.05);
+    transition: 500ms;
+}
+
+.experience__description button {
+    margin-right: 10px;
+    margin-left: 10px;
+    background: #DDDADC;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    transform: scale(1);
+    transition: 500ms;
+}
+
+.experience__demo button {
+    margin-right: 10px;
+    margin-left: 10px;
+    background: transparent;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    transform: scale(1);
+    transition: 500ms;
+}
+
+.experience__description button:hover {
+    font-weight: bold;
+    transform: scale(1.1);
+    transition: 500ms;
+}
+
+
+/* Contacto */
+.formcontato {
+    padding: 40px 100px;
+    text-align: center;
+    background: #DDDADC;
+}
+
+.formcontato h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.formcontato h3 {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.formcontato__input {
+    height: 40px;
+    width: 80%;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+form {
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.formcontato__form {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+
+}
+
+.formcontato__form,
+textarea::placeholder {
+    text-align: center;
+
+}
+
+input {
+    text-align: center;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input:focus {
+    transform: scale(1.05);
+    transition: 500ms;
+}
+
+.formcontato__form textarea {
+    border-radius: 10px;
+}
+
+textarea {
+    resize: none;
+    width: 80%;
+}
+
+textarea:focus {
+    transform: scale(1.05);
+    transition: 500ms;
+}
+
+.formcontato__form button {
+    margin-top: 20PX;
+    background: #ffffff;
+    border-radius: 5px;
+    height: 40px;
+    width: 350px;
+    transform: scale(1);
+    transition: 500ms;
+}
+
+.formcontato__form button:hover {
+    font-weight: bold;
+    transform: scale(1.1);
+    transition: 500ms;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px 50px;
+}
